@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <img src="/marioCogumelo.jpg" alt="imagem do cogumelo do jogo Mario Bros" width="30px">
-        <span> Melhores alunos do Vemser de todos os tempos!</span>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div>
+    <div class="container">
+        <div class="backgroud-header">
+            <header>
+                <img src="/cogumelo-logo.png" alt="imagem do cogumelo do jogo Mario Bros" class="img-logo">
+                <span> VemSer - DBC Company </span>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                    <br><br><br>
+                </nav>
+            </header>
+        </div>
+    <section class="contato">
         <label for="name">Nome</label>
         <input type="text" placeholder="Digite seu nome completo">
         <br><br>
@@ -29,22 +34,21 @@
 
         <label for="select">Qual motivo do seu contato?</label>
         <select name="contatoMotivo" id="motivo-contato">
-            <option value="option-1"> HTML é fácil demais</option>
-            <option value="option-2"> HTML é mais ou menos fácil</option>
-            <option value="option-2"> HTML é difícil demais</option>
+            <option value="option-1"> Quero participar do programa</option>
+            <option value="option-2"> Gostaria de mais informações</option>
+            <option value="option-2"> Outras dúvidas</option>
         </select>
 
         <br><br>
-        <label for="mensagem">Escreva aqui sua mensagem?</label>
+        <label for="mensagem">Escreva aqui sua mensagem:</label>
         <br>
         <textarea name="mensagem" id="mensagem-1" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
-
         <br><br>
-        <input type="submit" value="Enviar" />
-    
-    </div>
+        <input type="submit" value="Enviar" class="botao">
+    </section>
     <footer>
         <nav>
+            <br><br><br>
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
@@ -53,5 +57,6 @@
         </nav>
         <address><i>Tv. São José, 455 - Navegantes, Porto Alegre - RS, 90240-200</i></address>
     </footer>
+    </div>
 </body>
 </html>

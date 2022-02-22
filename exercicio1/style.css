@@ -1,31 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&display=swap');
 * {
     margin: 0;
     padding: 0;    
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1600px;
+    background-image: linear-gradient(rgb(102, 102, 219), green);
+    
 }
 
 .backgroud-header {
-    background-color: #cccc;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    
 }
 
 .backgroud-header span {
     font-size: 30px;
     font-weight: bolder;
-    padding-top:10px ;
+    color: white;
 }
 
 .img-logo {
-    width:70px;
-    background-color: #cccc;
+    width:100px;
     margin: 10px;
+    
 }
 
 footer {
-    background-color: #cccc;
+    background-color: black
 }
 
 nav {
@@ -37,15 +43,16 @@ nav ul li {
 }
 
 nav ul li a{
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     text-decoration: none;
     margin-right: 30px;
     font-size: 25px;
+    color: white;
 }
 
 nav :hover{
-    color: black;
+    color:#cccc;
     text-decoration: none;
     font-size: 26px;
 }
@@ -57,26 +64,34 @@ nav :hover{
 
 .section-1 .icone{
     text-align: center;
+    display: inline;
 }
 
 .section-1 h1 {
     font-size: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: bolder;   
 }
 
 .section-1 iframe{
     margin: 10px;
 }
-.section-1 p{
+.section-1 div p{
     margin: 15px;
+    display: inline-block;
+}
+
+.section-1 p {
+    margin-top: 80px;
 }
 
 .icone {
     border: 1px solid black ;
-    margin: 30px;
-    padding: 10px;
+    margin: 40px;
+    padding: 75px;
     border-radius: 15px;
+    background-color: white;
 }
 
 .section-2 {
@@ -91,8 +106,59 @@ nav :hover{
     
 }
 
+.contato {
+    padding: 20px 50px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+input {
+    text-align: center;
+    margin: 10px;
+    width: 500px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+select {
+    margin: 10px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+textarea {
+    text-align: center;
+    margin: 10px;
+    width: 580px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.botao {
+	background: orange;
+    font-weight: bolder;
+	color: white;
+    border: none;
+	cursor: pointer;
+    width: 580px;
+    height: 75px;
+    transition: 2s;
+}
+
+.botao:hover {
+	background: darkorange;
+	transform: scale(1.1);
+    transition: 2s;
+}
+
+
 address {
     text-align: left;
-    margin-bottom: 100px;
-    padding: 100px;
+    padding: 20px;
+    color: white;
+}
+
+iframe {
+    box-shadow: 10px 10px 30px #000000;
+
 }
