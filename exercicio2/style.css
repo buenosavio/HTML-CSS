@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1600px;
+    background-image: linear-gradient(rgb(102, 102, 219), green);
+}
+
+.img-logo {
+    width:100px;
+    padding: 10px;
+}
+
+.backgroud-header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.backgroud-header span {
+    font-size: 30px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav {
+    text-align: right;    
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+nav :hover{
+    color:#cccc;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: bolder;   
+    text-align: center;
+}
+
+.section-1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.section-1 h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: bolder;   
+}
+
+.section-1 iframe{
+    margin: 10px;
+}
+.section-1 div p{
+    margin: 15px;
+    display: inline-block;
+}
+
+.section-1 p {
+    margin-top: 80px;
+}
+
+.texto {
+    padding: 25px;
+    text-align:justify;
+}
+
+.itens{
+    text-align: center;
+}
+
+.itens li {
+    background-color: white;
+    border: 3px solid black;
+    padding: 5px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.itens li:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    border: 3px solid orange;
+}
+
+iframe {
+    box-shadow: 10px 10px 30px #000000;
+}
+
+.section-2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-2 h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.contato {
+    padding: 20px 50px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+input {
+    text-align: center;
+    margin: 10px;
+    width: 500px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+select {
+    margin: 10px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+textarea {
+    text-align: center;
+    margin: 10px;
+    width: 580px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.botao {
+	background: orange;
+    font-weight: bolder;
+	color: white;
+    border: none;
+	cursor: pointer;
+    width: 580px;
+    height: 75px;
+    transition: 2s;
+}
+
+.botao:hover {
+	background: darkorange;
+	transform: scale(1.1);
+    transition: 2s;
+}
+
+address {
+    text-align: left;
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
