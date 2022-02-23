@@ -126,7 +126,7 @@ iframe {
 }
 
 .contato {
-    padding: 20px 50px;
+    padding-left: 30px;
     font-weight: bolder;
     font-size: 25px;
 }
@@ -142,7 +142,9 @@ input {
 select {
     margin: 10px;
     height: 25px;
+    width: 315px;
     border-radius: 25px;
+    border: none;
 }
 
 textarea {
