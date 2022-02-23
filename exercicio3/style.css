@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+header ul li, a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    margin-left: 20px;
+}
+header li:hover {
+    text-decoration: underline;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+/**Galeria**/
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.container > div {
+    padding: 10px;
+}
+
+.container > div > p {
+    text-align: center;
+    margin-top: 5px;
+}
