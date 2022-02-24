@@ -37,6 +37,7 @@ h1 {
 main {
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .container1 {
@@ -46,29 +47,47 @@ main {
 }
 
 .container1 div p {
-    border: 1px solid orange;
-    margin-bottom: 10px;
-    background-color: orange;
+    position: absolute; 
+    top: 528px; 
+    width: 700px; 
+    color: white; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .container1 > div > img {
     width: 700px;
     height: 430px;
+    position: relative;
 }
 
 .container2 {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    justify-content: space-between;
 }
 
-.container2 div p {
-    border: 1px solid orange;
-    margin-bottom: 10px;
-    background-color: orange;
+.first-image {
+    position: absolute;  
+    top: 298px; 
+    width: 350px; 
+    color: white; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.second-image {
+    position: absolute;  
+    top: 528px; 
+    width: 350px; 
+    color: white; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .container2 > div > img {
     width: 350px;
     height: 200px;
+    position: relative;
 }
