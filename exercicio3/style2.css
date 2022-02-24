@@ -49,6 +49,7 @@ main {
 .container1 > div > img {
     width: 700px;
     margin-bottom: 5px;
+    max-width: 100%;
 }
 
 .container2 {
@@ -60,6 +61,7 @@ main {
 
 .container2 > div > img {
     width: 350px;
+    max-width: 100%;
     margin-bottom: 5px;
 }
 

@@ -59,6 +59,7 @@ main {
     width: 700px;
     height: 430px;
     position: relative;
+    max-width: 100%;
 }
 
 .container2 {
@@ -90,4 +91,5 @@ main {
     width: 350px;
     height: 200px;
     position: relative;
+    max-width: 100%;
 }
