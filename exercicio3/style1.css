@@ -1,0 +1,91 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+header ul li, a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    margin-left: 20px;
+}
+header li:hover {
+    text-decoration: underline;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+/* Seção 1*/
+.container {
+   margin: 0 auto;
+   max-width: 1200px; 
+}
+
+.superior {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 20px; 
+    justify-content: center;
+    margin: 20px;
+}
+
+.superior > div > img {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.inferior {
+    display: flex;
+    justify-content: center;
+}
+
+.esquerda {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.esquerda > div > div {
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: darkgray;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.direita {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 20px;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.direita > div > img{
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.direita > div {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+
