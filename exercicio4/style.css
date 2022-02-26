@@ -40,7 +40,7 @@ header ul a,li {
     margin-left: 35px;
 }
 
-          /*LOGIN*/
+          /*LOGIN E SIGNUP*/
 .loginbtn {
     color: #18A0FB;
     background-color: white;
@@ -145,6 +145,7 @@ header ul a,li {
 
 .section-image1 > div > img {
     width: 590px;
+    margin-right: 20px;
 }
 
 .section-image1 > div > p {
@@ -155,12 +156,13 @@ header ul a,li {
 .section-image1 > div:nth-child(2) {
     padding: 0px 80px 0px 40px;
 } 
-          /*terceira section*/
+          /*quarta section*/
 
 .section-image2 {
     display: flex;
     padding: 60px 80px;
     align-items: center;
+    background-color: #F5F5F5;
 }
 
 .section-image2 > div > img {
@@ -171,7 +173,76 @@ header ul a,li {
     margin-top: 20px;
     margin-right: 40px;
 }
+          /*quinta section*/
+.section-grid-images {
+    padding: 60px 80px;
+    height: 500px;
+}
 
+.section-grid-images > div > h2 {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.section-grid-images > div > h3 {
+    padding: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+}
+
+.section-grid-images > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-grid-images > div > ul {
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    justify-content: center;
+    gap: 40px 40px;
+    padding: 40px;
+}
+
+/**/
+.section-final{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #F5F5F5;
+    padding: 60px 80px;
+}
+
+.joinbtn2{
+    color: white;
+    padding: 10px 30px;
+    background-color: #18A0FB;
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+}
+
+.section-final h3 {
+    width: 800px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+
+.loginbtn2{
+    color: #18A0FB;
+    padding: 10px 40px;
+    background-color: white;
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+
+/* .section-final > h3 {
+    
+} */
 /*  ---------- rodapé do site  ----------  */
 .top-footer {
     display: flex;
