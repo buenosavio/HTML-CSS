@@ -6,7 +6,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-/* ---------- Cabeçalho principal do site ---------- */
+/* ---------- Cabeçalho do site ---------- */
           /*LOGO E LINKS*/
 header {
     display: flex;
@@ -63,5 +63,48 @@ header ul a,li {
 
 main > div {
     background-color: #E5E5E5;
-    height: 100vh;
+    height: 30vh;
+}
+
+/*  ---------- rodapé do site  ----------  */
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.footer-left a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-right{
+    margin-left: 60px;
+}
+
+.footer-right a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bottom-footer > a > img{
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
 }
