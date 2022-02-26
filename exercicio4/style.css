@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 20px;
+    /* position: fixed; */
 }
 
 .h-left {
@@ -61,13 +62,22 @@ header ul a,li {
 
 /* container */
 
-main > div {
-    background-color: #E5E5E5;
-    height: 30vh;
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.section-video {
+    height: 500px;
+    background-image: url("./img/dog.jpg");
+}
+
+
+.text-video {
+    color: white;
+    font-size: 56px;
 }
 
 /*  ---------- rodapé do site  ----------  */
-
 .top-footer {
     display: flex;
     justify-content: space-between;
