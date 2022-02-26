@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 5px 20px;
+}
+
+header ul a,li {
+    display: inline;
+}
+
+.menu {
+    margin-right: 500px;
+    background-color: orange;
+    min-width: 550px;
+}
+
+.menu > ul > a {
+    text-decoration: none;
+    color: #18A0FB;
+}
+
+.menu > ul > a > li {
+    background-color: black;
+    margin-left: 30px;
+}
+
+.login {
+    background-color: blue;
+    min-width: 100px;
+}
