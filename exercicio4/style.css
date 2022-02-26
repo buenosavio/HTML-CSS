@@ -66,10 +66,10 @@ header ul a,li {
 
 /* ---------- main do site ---------- */
           /*primeira section*/
-.container {
+ .container {
     margin: 0 auto;
     max-width: 1400px;
-}
+ } 
 
 .section-video {
     display: flex;
