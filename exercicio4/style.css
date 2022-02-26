@@ -6,6 +6,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+input {
+    cursor: pointer;
+}
+
 /* ---------- Cabeçalho do site ---------- */
           /*LOGO E LINKS*/
 header {
@@ -40,8 +45,8 @@ header ul a,li {
     color: #18A0FB;
     background-color: white;
     border: 1px solid #18A0FB;
-    padding: 10px 46px;
-    border-radius: 4px;
+    padding: 10px 49px;
+    border-radius: 6px;
 }
 
 .signupbtn {
@@ -49,7 +54,7 @@ header ul a,li {
     padding: 10px 40px;
     background-color: #18A0FB;
     border: 1px solid #18A0FB;
-    border-radius: 4px;
+    border-radius: 6px;
     margin-left: 10px;
 }
 
@@ -59,22 +64,112 @@ header ul a,li {
     transition: 1s;
 }
 
-
-/* container */
-
+/* ---------- main do site ---------- */
+          /*primeira section*/
 .container {
     margin: 0 auto;
     max-width: 1400px;
 }
+
 .section-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 500px;
     background-image: url("./img/dog.jpg");
 }
 
+.playbtn{
+    max-width: 80px;
+    margin-top: 90px;
+    margin-left: 635px;
+}
 
 .text-video {
     color: white;
     font-size: 56px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.joinbtn {
+    color: white;
+    padding: 10px 40px;
+    background-color: #18A0FB;
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+          /*segunda section*/
+.section-text {
+    height: 700px;
+}
+
+.section-text > div > h1 {
+    padding: 60px 80px 30px 80px;
+    font-weight: 500;
+    font-size: 48px;
+    max-width: 650px;
+}
+
+.section-text-itens{
+    display: grid;
+    grid-template-columns: auto auto; 
+}
+
+.section-text-itens > div > h2 {
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.section-text-itens > div {
+    padding: 20px 80px;
+}
+
+.learn-btn{
+    color: #18A0FB;
+    background-color: white;
+    border: 1px solid #18A0FB;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+          /*terceira section*/
+.section-image1 {
+    display: flex;
+    padding: 60px 80px;
+    align-items: center;
+}
+
+.section-image1 > div > img {
+    width: 590px;
+}
+
+.section-image1 > div > p {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.section-image1 > div:nth-child(2) {
+    padding: 0px 80px 0px 40px;
+} 
+          /*terceira section*/
+
+.section-image2 {
+    display: flex;
+    padding: 60px 80px;
+    align-items: center;
+}
+
+.section-image2 > div > img {
+    width: 590px;
+}
+
+.section-image2 > div > p {
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
 /*  ---------- rodapé do site  ----------  */
