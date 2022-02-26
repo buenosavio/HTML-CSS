@@ -6,36 +6,62 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-  
+/* ---------- Cabeçalho principal do site ---------- */
+          /*LOGO E LINKS*/
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
-    padding: 5px 20px;
+    padding: 8px 20px;
+}
+
+.h-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
 }
 
 header ul a,li {
     display: inline;
 }
 
-.menu {
-    margin-right: 500px;
-    background-color: orange;
-    min-width: 550px;
-}
-
-.menu > ul > a {
+.links > a {
     text-decoration: none;
+}
+
+.links > a > li {    
     color: #18A0FB;
+    margin-left: 35px;
 }
 
-.menu > ul > a > li {
-    background-color: black;
-    margin-left: 30px;
+          /*LOGIN*/
+.loginbtn {
+    color: #18A0FB;
+    background-color: white;
+    border: 1px solid #18A0FB;
+    padding: 10px 46px;
+    border-radius: 4px;
 }
 
-.login {
-    background-color: blue;
-    min-width: 100px;
+.signupbtn {
+    color: white;
+    padding: 10px 40px;
+    background-color: #18A0FB;
+    border: 1px solid #18A0FB;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.header-right > input:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+/* container */
+
+main > div {
+    background-color: #E5E5E5;
+    height: 100vh;
 }
