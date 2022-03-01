@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+ } 
+
+header {
+    display: flex;
+}
+
+.links {
+    display: none;
+}
+
+ .logo > a > i {
+    color: black;
+     margin-right: 10px; 
+} 
+
+.loginbtn {
+    color: #18A0FB;
+    background-color: white;
+    border: 1px solid #18A0FB;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.signupbtn {
+    color: white;
+    padding: 10px 20px;
+    background-color: #18A0FB;
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+}
+
+.logo > a > i{
+    display: inline;
+}
+
+.section-video {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.playbtn{
+    display: none;
+}
+  
+.joinbtn {
+    margin-top: 0px;
+    margin-left: 0px;   
+}
+
+.section-text {
+    height: 1400px;
+    display: block;
+}
+
+.section-text-itens {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1000px;
+}
+
+.section-image1 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.section-image1 div:nth-child(2) {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.section-image1 > div > img {
+    max-width: 100%;
+}
+
+.section-image2 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+
+.section-image2 > div > img {
+    max-width: 100%;
+}
+
+.section-image2 div:nth-child(1){
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+}
+
+.section-image2 div p {
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 20px;
+}
+
+.section-grid-images {
+    padding: 20px 10px;
+    height: auto;
+}
+.section-grid-images div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-grid-images div:nth-child(2) ul {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    padding: 1px;
+    max-width: 100%;
+}
+
+.section-final {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+}
+
+.section-final > div >  h3 {
+    display: block;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+}
+
+.footer-right{
+    margin-left: 0px;
+}

@@ -18,7 +18,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 20px;
-    /* position: fixed; */
+}
+
+.logo > a > i {
+    display: none;
 }
 
 .h-left {

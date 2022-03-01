@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="./style-mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,13 +17,14 @@
         <div class="header-left">
             <ul class="h-left">
                 <div class="logo">
+                    <a href="#"><i class="fa-solid fa-bars fa-2x"></i></a>
                     <a href="#"><img src="./img/Sample Logo.svg" alt="logo da empresa"></a>
                 </div>
                 <div class="links">
-                    <a href="#"><li>Features</li></a>
-                    <a href="#"><li>Pricing</li></a>
-                    <a href="#"><li>Community</li></a>
-                    <a href="#"><li>Support</li></a>
+                    <a href="#anchor-features"><li>Features</li></a>
+                    <a href="#anchor-pricing"><li>Pricing</li></a>
+                    <a href="#anchor-community"><li>Community</li></a>
+                    <a href="#anchor-final"><li>Support</li></a>
                 </div>
             </ul>
         </div>
@@ -38,10 +41,12 @@
                 </div>
                 <div>
                     <p class="text-video">The largest community of photo enthusiasts</p>
+                </div>
+                <div>
                     <input type="submit" value="Join Today" class="joinbtn">
                 </div>
             </div>
-            <div class="section-text">
+            <div class="section-text" id="anchor-features">
                 <div>
                     <h1>Snap photos and share like never before</h1>
                 </div>
@@ -68,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section-image1">
+            <div class="section-image1" id="anchor-pricing">
                 <div>
                     <img src="./img/Rectangle.svg" alt="imagem retangular">
                 </div>
@@ -77,7 +82,7 @@
                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
                 </div>
             </div>
-            <div class="section-image2">
+            <div class="section-image2" id="anchor-pricing">
                 <div>
                     <h2>Sed ut perspiciatis unde omnis</h2>
                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
@@ -86,7 +91,7 @@
                     <img src="./img/Rectangle.svg" alt="imagem retangular">
                 </div>
             </div>
-            <div class="section-grid-images">
+            <div class="section-grid-images" id="anchor-community">
                 <div>
                     <h1>You’re in good company</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h3>
@@ -104,7 +109,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="section-final">
+            <div class="section-final" id="anchor-final">
                 <div>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h3>
                 </div>
